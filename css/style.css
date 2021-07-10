@@ -1,0 +1,414 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.at{
+	font-size: 36px !important;
+    font-family: 'Lato', sans-serif;
+    /*background-color: #fff;*/
+    /*color:  #06c6f9 !important;*/
+     background-color: red;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #1d3ede, #01e6f8);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+}
+.ant{
+	font-size: 18px;
+	color: #666666 !important;
+}
+.active{
+	font-size: 18px;
+	color: #3b3b3b;
+}
+.man{
+	padding-left: 30px !important;
+	font-size: 18px;
+	color: #666666 !important;
+}
+.mat{
+	margin-right: 16px;
+	border-radius: 20px !important;
+	padding: 5px 25px !important;
+	font-size: 18px !important;
+}
+.to{
+	background-color: #01E6F8 !important;
+	color: #fff !important;
+	border: none !important;
+}
+.po{
+	background-color: transparent; 
+	color: #fff !important;
+	border:2px solid #fff !important;
+}
+.bo{
+	padding-top: 14%;
+}
+.bo h1 {
+	font-size: 48px;
+	font-weight: 300;
+	color: black;
+	width: 76%;
+
+}
+.bo h1 span {
+	font-weight: 500;
+}
+.bo p {
+	font-size: 18px;
+	margin-top: 20px;
+    margin-bottom: 40px; 
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    font-size: 18px;
+}
+.mo{
+	border-radius: 20px !important;
+}
+.yoo{
+	margin-left: 65px;
+}
+#on::before{
+	position: absolute;
+    content: "";
+    height: 590px;
+    width: 747px;
+    background-image: linear-gradient(to right, #e8eefc, #e6fafe);
+    left: 47.5% !important;
+    top: -25px;
+    z-index: -1;
+    border-radius: 50% 0 50% 50%;
+}
+#on::after{
+	position: absolute;
+    content: "";
+    height: 600px;
+    width: 719px;
+    background-image: linear-gradient(-220deg, #1d3ede, #01e6f8);
+    left: 49.5%;
+    top: -50px;
+    z-index: -1;
+    border-radius: 50% 0 50% 50%;
+}
+.eon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.blo a {
+	display: inline;
+    padding: 10px 5px 10px 20px;
+    background-color: #06c6f9;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.fa {
+	background: #fff;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    color: #37eaf9;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 15px;
+}
+.blo a:hover {
+	background-color: #38eaf9;
+}
+.ret{
+	margin-top: 200px;
+}
+.ret img {
+	margin-left: 28px;
+	height: 500px; 
+	width: 600px;
+}
+.ret h1{
+	margin-top: 35px;
+	margin-left: 100px;
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 20px;	
+}
+.ret p{
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	color: #666666; 
+	margin-left: 100px;
+}
+.ret a{
+	display: inline;
+    padding: 10px 5px 10px 20px;
+    background-color: #06c6f9;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-left: 100px;
+}
+.ret a:hover {
+	background-color: #38eaf9;
+}
+.het h1{
+	margin-top: 250px;
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 20px;
+	margin-left: 28px;
+}
+.het p{
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	color: #666666; 
+	margin-left: 28px;
+}
+.het a{
+	display: inline;
+    padding: 10px 5px 10px 20px;
+    background-color: #06c6f9;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-left: 28px;
+}
+.het a:hover {
+	background-color: #38eaf9;
+}
+.het img{
+	margin-top: 55px;
+	height: 900px;
+	width: 800px;
+}
+.tonn{
+	border: none;
+    background: transparent;
+    padding-bottom: 19px;
+}
+.tonn h5 {
+	font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    padding-bottom: -125px;
+    padding-left: 113px;
+    transform: translate(10px, -240px);
+    color: #fff;
+}
+.tonn p {
+	font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    padding-left: 113px;
+    transform: translate(10px, -224px);
+}
+/*.nope{
+	background-image: url(counter.png);
+}*/
+.balle {
+	top: 0;
+	left: 0;
+}
+.car {
+	background: #fff;
+    margin: 30px 5px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px 0 rgb(0 0 0 / 8%);
+    border: none;
+}
+.tet h1 {
+	 font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 100px;
+}
+/*.owl-stage-outer{
+	padding-bottom: 30px;
+}
+.owl-stage{
+	transition: all 0s ease 0s;
+    width: 955px;
+    transform: translate3d(404px, 0px, 0px);
+}
+.center {
+	max-width: 100%;
+    height: 120px;
+    width: 120px;
+}
+.card-img-top {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 5px solid #1d3ede;
+    width: 100px;
+    height: 100px;
+}
+.center h5{
+	font-size: 24px;
+}
+.car h5 {
+    color: #1d3ede;
+    font-size: 24px;
+    line-height: 1.3;
+    font-family: 'Lato', sans-serif;
+}
+.car h5 span {
+	font-size: 20px;
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+}
+.center p{
+	font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+}
+.active {
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+.card-text {
+	font-size: 20px;
+}*/
+
+/*adding*/
+
+.gtco-features .col-lg-8 .row .col:first-child {
+    margin-top: 150px;
+}
+.col-lg-8 .card {
+    background: #fff;
+    margin: 30px 5px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px 0 rgb(0 0 0 / 8%);
+    border: none;
+}
+.col-lg-8 .card .card-img {
+    background: linear-gradient(to right, #f1f6fd, #f0fbfe);
+    padding: 10px;
+    width: 150px;
+    border-radius: 50%;
+    margin: auto;
+    transform: rotate(20deg);
+    margin-top: 20px;
+}
+.col-lg-8 .card .card-img-top-two {
+    max-width: 0.8in;
+    margin: 0 auto;
+    transform: rotate(
+-20deg
+);
+}
+.card-img-top-two {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+.card h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #1d3ede;
+}
+.card p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.back-img {
+	background-image: url(../back.png);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	padding: 75px 50px 0px 50px;
+}
+.new-mar {
+	margin-top: 100px;
+}
+#services {
+	margin: 130px 0px;
+}
+.services-txt {
+	margin-top: 60%;
+}
+.btn-new {
+	display: inline;
+    padding: 10px 5px 10px 20px;
+    background-color: #06c6f9;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.btn-new:hover {
+	background-color: #38eaf9;
+	color: #fff;
+}	
+
+.owl-dots {
+	text-align: center;
+}
+.owl-dots button {
+	border: 2px solid #38eaf9 !important;
+    padding: 5px !important;
+    border-radius: 50% !important;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: 2px solid #38eaf9 !important;
+    padding: 5px !important;
+    border-radius: 50% !important;
+    font: inherit;
+    margin-right: 15px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot.active {
+	background: #38eaf9;
+	padding: 5px 10px !important;
+    border-radius: 10px !important;
+}
+
+/*feedback*/
+
+.feedback-slider img {
+	width: 30% !important;
+    border: 5px solid #1c41de;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.feedback-slider h3 {
+	color: #1c41de;
+}
+.feedback-slider span {
+	font-weight: 300;
+    font-size: 22px;
+}
+.feedback-slider {
+	background: #fff;
+    box-shadow: 0 15px 40px 0 rgb(0 0 0 / 8%);
+    margin: 0 30px;
+    padding:20px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
